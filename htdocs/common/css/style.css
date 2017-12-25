@@ -250,5 +250,34 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+.header,
+.article,
+.sidebar,
+.footer {
+	padding: 1em;
+}
+
+.wrap {
+	font-size: 1.6rem;
+}
+
+.header {
+	background-color: #9ab3fe;
+}
+
+.article {
+	background-color: #9eddef;
+}
+
+.sidebar {
+	width: 200px;
+	background-color: #ff7c76;
+}
+
+.footer {
+	background-color: #282c33;
+	color: #fff;
+}
+
 
 /*# sourceMappingURL=../map/style.css.map */
