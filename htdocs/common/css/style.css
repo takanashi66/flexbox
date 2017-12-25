@@ -250,5 +250,49 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+.wrap {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-size: 1.6rem;
+	min-height: 100vh;
+}
+
+.header,
+.article,
+.sidebar,
+.footer {
+	padding: 1em;
+}
+
+.header {
+	padding: 1em;
+	background-color: #9ab3fe;
+}
+
+.main {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.article {
+	background-color: #9eddef;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.sidebar {
+	width: 200px;
+	background-color: #ff7c76;
+}
+
+.footer {
+	background-color: #282c33;
+	color: #fff;
+}
+
 
 /*# sourceMappingURL=../map/style.css.map */

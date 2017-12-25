@@ -1,0 +1,35 @@
+.wrap{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+.header,.article,.sidebar,.footer{
+  padding: 1em;
+}
+
+.header{
+  padding: 1em;
+  background-color: #9ab3fe;
+}
+
+.main{
+  display: flex;
+  flex: 1;
+}
+
+.article{
+  background-color: #9eddef;
+  flex: 1;
+}
+
+.sidebar{
+  width: 200px;
+  background-color: #ff7c76;
+}
+
+.footer{
+  background-color: #282c33;
+  color: #fff;
+}
