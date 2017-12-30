@@ -12,9 +12,13 @@
 
 ## セットアップ
 
+node moduleのインストール
+
 ```
 npm install
 ```
+
+タスクランナー
 
 ```
 gulp
@@ -22,4 +26,4 @@ gulp
 
 ## コーディング
 
-*/htdocs/common/sass/style.scss* に記述する。
+*/htdocs/common/sass/page/_index.scss* に記述する。
