@@ -250,15 +250,6 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-.wrap {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	font-size: 1.6rem;
-	min-height: 100vh;
-}
-
 .header,
 .article,
 .sidebar,
@@ -266,8 +257,16 @@ input[type=submit] {
 	padding: 1em;
 }
 
+.wrap {
+	font-size: 1.6rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 .header {
-	padding: 1em;
 	background-color: #9ab3fe;
 }
 
